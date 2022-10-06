@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static',filename= 'static/css/style.css') }}"
+    <title></title>
+
+</head>
+<body>
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Welcome to My Activities {% endblock %}</h1>
+{% endblock %}
+
+</html>
